@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Cairo&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 55px;
+}
+
+.left_section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left_section img {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.center form {
+    display: flex;
+    height: 42px;
+    width: 628px;
+}
+
+.center form input {
+    width: 100%;
+    border-radius: 3px 0 0 3px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border: 1px solid #d3d3d3;
+}
+
+.center form button {
+    width: 65px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 3px 3px 0;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.center form button :hover {
+    background-color: #f0f0f0;
+}
+
+.center .mic {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right a {
+    padding-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Start content area */
+.content-area {
+    height: calc(100vh - 55px);
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+aside {
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    flex-direction: column;
+    margin: 15px;
+    padding-right: 15px;
+}
+
+nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav-link span {
+    margin-left: 25px;
+    font-size: 1.6rem;
+    line-height: 2em;
+    font-weight: 400;
+    color: black;
+
+}
+
+.active {
+    background-color: #efefef;
+}
+
+hr {
+    margin: 10px 0;
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.subscripes{
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sous-subscripes:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sous-subscripes {
+    display: flex;
+
+}
+
+.img-subscriptions {
+    width: 15%;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.sous-subscripes span{
+    margin: 18px 7px 7px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+/* End Content area */
+
+/* start Main Content*/
+.main{
+    background-color:white;
+    width:100%;
+}
+.main-videos {
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-videos .feature {
+    display: inline-block;
+    text-align: center;
+    background-color: #efefef;
+    width: 270px;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.main-videos .feature:hover {
+    box-shadow: -3px 2px 5px rgb(177, 177, 137);
+    transform: translate(10px,10px);
+}
+
+.sub-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-feature h2{
+    background-color: #f46141;  
+    font-size: 1.6em;
+    cursor: pointer;
+    color: #efefef;
+}
+.sub-feature img{
+    margin-left: 10px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+.description p{
+    font-size: 1.5rem;
+    margin: 5px 10px;
+}
+.description h2{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid  #e5e5e5;;
+}
+.details .detail1{
+    display:flex;
+    text-align: center;
+}
+.detail{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.details .detail ul li {
+padding-top: 5px 0;
+display: inline-block;
+    margin-right: 25px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+.detail1 img{
+    width:30px; 
+    height: 30px;
+    margin: 3px 5px;
+}
